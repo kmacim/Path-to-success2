@@ -1,0 +1,200 @@
+/* CSS BY Kevin Riley */
+/* -------------------- IMPORTED FONTS -------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/*-------------------- CSS RESET --------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* -------------------- ROOT VARIABLES  -------------------- */
+:root {
+    font-family: 'Kavoon', 'Inter';
+    font-size: 1.25em;
+    
+    --teal:#4CA7C0;
+    --purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57; 
+    --Pink:#D9526F;
+    --Dark-gray:#1E1E1E; 
+    --White:#ffffff; 
+
+
+}
+
+
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+body {
+    
+    min-width: 100; max-width: 700px;
+    
+}
+
+body{
+    
+    background-color:#484FB7;
+    
+}
+h1, h2 {
+    
+font-family: 'Kavoon';
+color:#ffffff; 
+
+}
+
+header{
+display:inline;
+grid-column: 1fr;
+justify-content: center;
+text-align: center;
+padding:35px;
+}
+
+header > p{
+
+    font-style: italic;
+    color:#ffffff;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom:5px;
+
+
+}
+/* Font sizing for h's and font family */
+h1{
+font-size: 3em;
+}
+
+
+
+
+h2{
+   font-size: 2em; 
+   
+}
+
+h3{
+    font-family:'Inter' ;
+    color:#E9BB57;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+/* On final check change color to purple */
+h4{
+    font-size: 1.15em;
+    font-family:'Inter' ;
+    font-weight: bold;
+    
+}
+
+p{
+    font-family: 'Inter';
+}
+/* Creating boxes  and aligning to center */
+nav{
+    display:inline-block;
+    width: 450px;
+    height: 245px;
+    border-color: #E9BB57;
+    background-color: #E9BB57;
+    padding: 45px;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;    
+}
+/* creating color and sizing h2 */
+nav h2{
+    font-size: 1.5em;
+    text-align: center;
+    color:black;
+    font-style: italic;
+    font-family: 'Inter';
+    font-weight: bold;
+    
+}
+
+/* creating block for navigation and coor text plus centering */
+menu li{
+
+display:block;
+background-color: #ffffff;
+width:425px;
+padding-top: 5px;
+padding-bottom: 15px;
+margin: 15px;
+padding-left: 5px;
+list-style: none;
+
+
+}
+/* li centering of text and color */
+li{
+    text-align: center;
+    font-family: 'Inter';
+    color:#6B8FE7;
+    font-weight: bold;
+}
+/* defining the menu as a inline block */
+menu{
+    display:inline block;
+}
+/* take underline from under links */
+nav a{
+    text-decoration: none;
+}
+
+
+
+/* Seperating specific h2 for padding */
+.pad{
+    display:block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
