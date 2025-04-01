@@ -165,7 +165,7 @@ nav h2{
     
 }
 
-/* creating block for navigation and coor text plus centering */
+/* creating block for navigation and color text plus centering */
 menu li{
 
 display:block;
@@ -188,7 +188,7 @@ li{
     font-weight: bold;
     
 }
-/* defining the menu as a inline block */
+/* defining the menu as a inline block size and color */
 menu{
     
     display:inline-block;
