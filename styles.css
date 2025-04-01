@@ -55,7 +55,7 @@ table {
 /* -------------------- ROOT VARIABLES  -------------------- */
 :root {
     font-family: 'Kavoon', 'Inter';
-    font-size: 1.25em;
+    font-size: 1.0em;
     
     --teal:#4CA7C0;
     --purple: #484FB7;
@@ -72,9 +72,9 @@ table {
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 body {
     
-    margin: 0px; 
-    max-width: 450px;
     
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 body{
@@ -145,10 +145,11 @@ p{
 nav{
     display:inline-block;
     width: 450px;
-    height: 245px;
+    height: 30px;
     border-color: #E9BB57;
     background-color: #E9BB57;
-    padding: 45px;
+    padding-top: 10px;
+    padding-bottom:0px;
     justify-items: center;
     align-items: center;
     text-decoration: none;    
@@ -177,6 +178,7 @@ padding-left: 5px;
 list-style: none;
 
 
+
 }
 /* li centering of text and color */
 li{
@@ -184,13 +186,23 @@ li{
     font-family: 'Inter';
     color:#6B8FE7;
     font-weight: bold;
+    
 }
 /* defining the menu as a inline block */
 menu{
-    display:inline block;
+    
+    display:inline-block;
+    width: 450px;
+    height: 200px;
+    background-color: #E9BB57;
+    padding-top: 0px;
+    padding-bottom:15px;
+    justify-items: center;
+    align-items: center;
+     
 }
 /* take underline from under links */
-nav a{
+menu a{
     text-decoration: none;
 }
 
