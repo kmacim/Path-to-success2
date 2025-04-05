@@ -112,15 +112,14 @@ h1{
 font-size: 3em;
 }
 
-
-
-
+/* h2 sizing and padding */
 h2{
    font-size: 2em;
    padding-left:30px; 
    
 }
 
+/* h3 sizing and  font family */
 h3{
     font-family:'Inter' ;
     color:#E9BB57;
@@ -216,12 +215,7 @@ menu a{
 
 
 
-/* Seperating specific h2 for padding */
-.pad{
-    display:block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 
 /* creating box  put images in */
 .box{
@@ -253,4 +247,49 @@ menu a{
     height: 300px;
     background-color:#D9526F;
     margin-bottom: 20px;
+}
+
+/* Special why choose us h2 for padding */
+.pad{
+    display:block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100px;
+    gap: 15px;
+    margin:10px; 
+     
+}
+
+/* Why choose box and text adjustment */
+ ul > li{
+    
+    padding:30px;
+    font-size: 1.15em;
+    align-items: center;
+    justify-items: center;
+    color:black;
+    font-style: bold;
+    border-radius: 15px;
+}
+
+/* Color for why choose boxes use attribute selectors*/
+ li[class="pa"]{
+    background-color: #4CA7C0;
+}
+
+li[class="pr"]{
+    background-color:#6B8FE7;
+}
+
+li[class="si"]{
+    background-color:#E9BB57;
+}
+
+li[class="fo"]{
+    background-color:#ffffff;
 }
