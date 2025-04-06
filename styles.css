@@ -91,7 +91,7 @@ color:#ffffff;
 
 header{
 display:inline;
-grid-column: 1fr;
+
 justify-content: center;
 text-align: center;
 padding:35px;
@@ -115,7 +115,7 @@ font-size: 3em;
 /* h2 sizing and padding */
 h2{
    font-size: 2em;
-   padding-left:30px; 
+   padding-left:10px; 
    
 }
 
@@ -126,7 +126,7 @@ h3{
     font-size: 1.5em;
     padding-top: 5px;
     padding-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 10px;
     font-weight: bolder;
 }
 /* On final check change color to purple */
@@ -273,7 +273,7 @@ ul{
     align-items: center;
     justify-items: center;
     color:black;
-    font-style: bold;
+    
     border-radius: 15px;
 }
 
@@ -299,22 +299,65 @@ table, th, td {
     border:1px solid #E9BB57;
     
 }
+/* Cell styling */
 td{
     font-size: 1em;
     background-color: #ffffff;
 }
+/* header background color */
 th{
     background-color: #E9BB57;
 }
+/* Sizing header and cell */
 th, td {
-    padding: 15px;
-    width:120px;
+    
+    padding: 20px  15px;
+    
     
 }
 /* positioning for table centering */
-table{
-    align-items: center;
-    margin-left:20px;
-    margin-right: 20px;
+table {
+    margin-left: 100px;
+    
+    
     font-family: 'Inter';
+}
+tbody{
+    align-content: center;
+}
+
+.end  {
+
+    width:450px;
+    color:#ffffff;
+    background-color: #D9526F;
+    margin-top:1px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+}   
+
+.end > p{
+    color:#ffffff;
+}
+strong{
+    display:block;
+    width: 280px;
+     padding: 35px;
+    margin:40px;
+    font-family:'inter';
+    background-color: #ffffff;
+    color:black;
+    text-align: center;
+    border-radius: 15px;
+   box-shadow: 10px 10px;
+   font-weight: bolder;
+   font-size: large;
+}
+
+small{
+     display:inline-block;
+     color:#ffffff;
+     padding: 50px;
+     font-family:'inter';
+
 }
